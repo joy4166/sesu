@@ -12,13 +12,23 @@ img {
     margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px){
     img {
         width: 100%;
         height: auto;
     }
-    
-    /* div {
-        text-align: center;
-    } */
+    #mobile{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+}
+@media (min-width: 800px){
+    #mobile{
+        display: none;
+    }
+    #desktop{
+        display: block;
+    }
 }
